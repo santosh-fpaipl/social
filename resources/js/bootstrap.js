@@ -1,3 +1,6 @@
+import Popper from '@popperjs/core/dist/umd/popper.js';
+import 'bootstrap';
+
 import axios from 'axios';
 window.axios = axios;
 

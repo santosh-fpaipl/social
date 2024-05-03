@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Support\ServiceProvider;
 
 return [
 
@@ -123,4 +124,16 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
-];
+    'providers' => ServiceProvider::defaultProviders()->merge([
+        /*
+        * Package Service Providers...
+        */
+        Fpaipl\Authy\Providers\FortifyServiceProvider::class,
+        Fpaipl\Authy\AuthyServiceProvider::class,
+        Fpaipl\Panel\PanelServiceProvider::class,
+        Fpaipl\Marketing\MarketingServiceProvider::class,
+        Fpaipl\Product\ProductServiceProvider::class,
+      
+    ])->toArray(),
+
+];  

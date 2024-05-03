@@ -7,7 +7,17 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.0",
-        "laravel/tinker": "^2.9"
+        "laravel/tinker": "^2.9",
+        "laravel/fortify": "^1.20",
+        "facebook/php-business-sdk": "^19.0",
+        "guzzlehttp/guzzle": "^7.8",
+        "laravel/sanctum": "4.0.1",
+        "livewire/livewire": "^3.3",
+        "maatwebsite/excel": "^3.1",
+        "minishlink/web-push": "^8.0",
+        "spatie/laravel-activitylog": "^4.7",
+        "spatie/laravel-medialibrary": "11.4.6",
+        "spatie/laravel-permission": "^6.3"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
@@ -27,7 +37,11 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Fpaipl\\Authy\\" : "modules/authy/src/",
+            "Fpaipl\\Panel\\" : "modules/panel/src/",
+            "Fpaipl\\Marketing\\" : "modules/marketing/src/",
+            "Fpaipl\\Product\\" : "modules/product/src/"
         }
     },
     "scripts": {

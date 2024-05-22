@@ -131,8 +131,8 @@ return [
         Fpaipl\Authy\Providers\FortifyServiceProvider::class,
         Fpaipl\Authy\AuthyServiceProvider::class,
         Fpaipl\Panel\PanelServiceProvider::class,
-        Fpaipl\Marketing\MarketingServiceProvider::class,
         Fpaipl\Product\ProductServiceProvider::class,
+        Fpaipl\Promotion\PromotionServiceProvider::class
       
     ])->toArray(),
 

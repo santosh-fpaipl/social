@@ -43,8 +43,8 @@
             "Tests\\": "tests/",
             "Fpaipl\\Authy\\" : "modules/authy/src/",
             "Fpaipl\\Panel\\" : "modules/panel/src/",
-            "Fpaipl\\Marketing\\" : "modules/marketing/src/",
-            "Fpaipl\\Product\\" : "modules/product/src/"
+            "Fpaipl\\Product\\" : "modules/product/src/",
+            "Fpaipl\\Promotion\\" : "modules/promotion/src/"
         }
     },
     "scripts": {
